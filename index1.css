@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+}
+
+p{
+    font-size: 50px;
+    
+}
+.task{
+    
+    font-weight: 900;
+}
+
+.text{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.back{
+    display: flex;
+    justify-content: center;
+    margin-right: 420px;
+    
+    
+    
+}
+
+.add111{
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.fa-arrow-circle-left{
+    color: rgb(221, 89, 12);
+}
+
+i{
+   
+    margin-left: 450px;
+}
+
+.add{
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 40px;
+    
+    
+}
+
+.fa-plus-circle{
+    color: rgb(221, 89, 12);
+    font-size: 35px;
+}
+
+.btxt{
+    font-size: 25px;
+    color: rgb(221, 89, 12);
+    font-family: 'Open Sans', sans-serif;
+    margin-left: -55px;
+    font-weight: 800;
+}
+
+.container{
+    justify-content: center;
+    display: flex;
+}
+
+.container .box{
+    text-align: center;
+    border: 1px solid rgb(221, 89, 12);
+    border-radius: 15px;
+    width: 250px;
+    height: 400px;
+    padding-left: 150px;
+    margin: 0px 30px 0px 30px;
+    box-shadow: 0 .8rem 1rem rgba(0,0,0,.30);
+    position: relative;
+}
+
+.com{
+    text-decoration: line-through;
+    font-size: 20px;
+    color: rgb(211, 59, 12);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    margin-left: -55px;
+}
+
+.check{
+    font-size: 21px;
+    margin-left: -90px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+}
+
+.checkbo{
+    width: 23px;
+    height: 23px;
+}
+
+.add11{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.heading{
+    font-size: 55px;
+    font-family:  sans-serif;
+    
+}
+
+.hr1{
+    color: red;
+    width: 10px;
+}
+
+.new1{
+    width: 50%;
+    height: 32px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.span1{
+    
+    background: white;
+    padding: 0 10px;
+    padding-top: 10px;
+    font-size: 55px;
+    font-family:  sans-serif;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(211, 59, 12);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:480px) {
+    
+    h1{
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    p{
+        font-size: 50px;
+        
+    }
+    .task{
+        
+        font-weight: 900;
+    }
+    
+    .text{
+        display: flex;
+        margin-top: 100px;
+        justify-content: center;
+        margin-bottom: 200px;
+        
+    }
+    
+    .back{
+        display: flex;
+        justify-content: start;
+        margin-top: 20px;  
+        
+    }
+    
+    .add111{
+        font-size: 0px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        text-align: left;
+        margin-top: -250px;
+        /* display: none; */
+    }
+
+    
+    
+    .fa-arrow-circle-left{
+        color: rgb(221, 89, 12);
+        
+    }
+    
+    i{
+        font-size: 35px;
+       margin: 30px;
+        
+       
+        
+    }
+    
+    .add{
+        font-size: 25px;
+        font-family: 'Open Sans', sans-serif;
+        padding-top: 40px;
+        
+        
+    }
+
+    .span1{
+        font-size: 35px;
+        
+    }
+    .new1{
+        width: 80%;
+        height: 32px;
+        border-bottom: 0px solid white;
+        text-align: center;
+        margin-bottom: -10px;
+        margin-left: 20px;
+    }
+
+    .container{
+        justify-content: center;
+        display: flex;
+    }
+    
+    .container .box{
+        text-align: center;
+        border: 1px solid rgb(221, 89, 12);
+        border-radius: 10px;
+        width: 250px;
+        height: 400px;
+        padding-left: 50px;
+        margin: -100px 30px 0px 30px;
+        box-shadow: 0 .8rem 1rem rgba(0,0,0,.30);
+        position: relative;
+    }
+
+    .add11{
+        position: absolute;
+        right: -10px;
+        bottom: -10px;
+    }
+
+   
+
+
+
+
+
+}
+
+/*@media screen and (max-width:768px) {
+    
+    h1{
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    p{
+        font-size: 50px;
+        
+    }
+    .task{
+        
+        font-weight: 900;
+    }
+    
+    .text{
+        display: flex;
+        margin-top: 100px;
+        justify-content: center;
+        margin-bottom: 200px;
+        
+    }
+    
+    .back{
+        display: flex;
+        justify-content: start;
+        margin-top: 20px;  
+        
+    }
+    
+    .add111{
+        font-size: 0px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        text-align: left;
+        margin-top: -250px;
+         display: none; 
+    }
+
+    
+    
+    .fa-arrow-circle-left{
+        color: rgb(221, 89, 12);
+        
+    }
+    
+    i{
+        font-size: 35px;
+       margin: 30px;
+        
+       
+        
+    }
+    
+    .add{
+        font-size: 25px;
+        font-family: 'Open Sans', sans-serif;
+        padding-top: 40px;
+        
+        
+    }
+
+    .span1{
+        font-size: 35px;
+        
+    }
+    .new1{
+        width: 80%;
+        height: 32px;
+        border-bottom: 0px solid white;
+        text-align: center;
+        margin-bottom: -10px;
+        margin-left: 20px;
+    }
+
+    .container{
+        justify-content: center;
+        display: flex;
+    }
+    
+    .container .box{
+        text-align: center;
+        border: 1px solid rgb(221, 89, 12);
+        border-radius: 10px;
+        width: 250px;
+        height: 400px;
+        padding-left: 50px;
+        margin: -100px 30px 0px 30px;
+        box-shadow: 0 .8rem 1rem rgba(0,0,0,.30);
+        position: relative;
+    }
+
+    .add11{
+        position: absolute;
+        right: -10px;
+        bottom: -10px;
+    }*/
+
+
+
+
+}
+
+
+
+

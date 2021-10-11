@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+}
+
+p{
+    font-size: 50px;
+    
+}
+.task{
+    
+    font-weight: 900;
+}
+
+.text{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+i{
+   
+    margin-left: 450px;
+}
+
+.add{
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 40px;
+    
+    
+}
+
+.fa-plus-circle{
+    color: rgb(221, 89, 12);
+    font-size: 35px;
+}
+
+.btxt{
+    font-size: 25px;
+    color: rgb(221, 89, 12);
+    font-family: 'Open Sans', sans-serif;
+    margin-left: -40px;
+}
+
+.container{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container .box{
+    text-align: center;
+    border: 1px solid rgb(221, 89, 12);
+    border-radius: 15px;
+    width: 200px;
+    height: 350px;
+    padding-left: 30px;
+    margin: 20px 30px 0px 30px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.30);
+}
+
+.com{
+    text-decoration: line-through;
+    font-size: 25px;
+    color: red;
+}
+
+.check{
+    font-size: 21px;
+    margin-left: -90px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+}
+
+.checkbo{
+    width: 23px;
+    height: 23px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(211, 59, 12);
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:480px) {
+    .task{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 900;
+        font-size: 45px;
+    }
+
+
+    
+    .text{
+        display: flex;
+        margin-top: 8px;
+        margin-left: 10px;
+        
+        
+    }
+    
+    i{
+       margin-top: 20px;
+        margin-left: 0px;
+        
+        margin-right: 0px;
+        
+    }
+    
+    .add{
+        font-size: 0%;
+        margin-left: 70px;
+
+
+        
+        
+    }
+    
+    .fa-plus-circle{
+        color: rgb(221, 89, 12);
+        font-size: 35px;
+    }
+
+    h1{
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    p{
+        font-size: 40px;   
+        font-family: 'Open Sans', sans-serif;
+
+    }
+
+    .container{
+        
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .container .box{
+        align-items: center;
+        border: 1px solid rgb(221, 89, 12);
+        border-radius: 10px;
+        width: 300px;
+        height: 70px;
+        padding-left: 0px;
+        margin: 20px;
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.30);
+    }
+
+    .btxt{
+        font-size: 22px;
+        color: rgb(221, 89, 12);
+        font-family: 'Open Sans', sans-serif;
+        margin-left: 20px;
+        text-align: start;
+        margin-top: 20px;
+    }
+
+    hr, .com, .check{
+        visibility: hidden;
+    }
+    
+
+
+
+
+
+}
+
+/* @media screen and (max-width:768px) {
+    .task{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 900;
+        font-size: 45px;
+    }
+
+
+    
+    .text{
+        display: flex;
+        margin-top: 8px;
+        margin-left: 10px;
+        
+        
+    }
+    
+    i{
+       margin-top: 20px;
+        margin-left: 0px;
+        
+        margin-right: 0px;
+        
+    }
+    
+    .add{
+        font-size: 0%;
+        margin-left: 70px;
+
+
+        
+        
+    }
+    
+    .fa-plus-circle{
+        color: rgb(221, 89, 12);
+        font-size: 35px;
+    }
+
+    h1{
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    p{
+        font-size: 40px;   
+        font-family: 'Open Sans', sans-serif;
+
+    }
+
+    .container{
+        
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .container .box{
+        align-items: center;
+        border: 1px solid rgb(221, 89, 12);
+        border-radius: 10px;
+        width: 500px;
+        height: 70px;
+        padding-left: 0px;
+        margin: 20px;
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.30);
+    }
+
+    .btxt{
+        font-size: 22px;
+        color: rgb(221, 89, 12);
+        font-family: 'Open Sans', sans-serif;
+        margin-left: 20px;
+        text-align: start;
+        margin-top: 20px;
+    }
+
+    hr, .com, .check{
+        visibility: hidden;
+    }
+    
+
+
+
+
+
+}*/
+
+
+
